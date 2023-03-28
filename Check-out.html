@@ -14,6 +14,10 @@
      body {
         background-image: url(images/Green-Background.jpg)
       }
+      .card-header  {
+        font-size:x-large;
+      }
+
 </style>
     <title>Check-Out</title>
 </head>
@@ -81,6 +85,74 @@
       </nav>
     </div>
 </div>
+
+
+<!------- Order Summary KL-->
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header bg-transparent border-success">Order Summary</div>
+  <div class="card-body text-success">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Product</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><img src="C:\Users\klee9\CTAC\DAY17\Agile-Group-Project\images\Cereal.jpg" width="50"></th>
+          <td>$4.99</td>
+        </tr>
+        <tr>
+          <th scope="row"><img src="C:\Users\klee9\CTAC\DAY17\Agile-Group-Project\images\hershe.webp" width="50"></th>
+          <td>$27.76</td>
+        </tr>
+        <tr>
+          <th scope="row"><img src="C:\Users\klee9\CTAC\DAY17\Agile-Group-Project\images\bread.jpeg" width="50"></th>
+          <td colspan="2">$3.49</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card-footer bg-transparent border-success">
+    <p>Subtotal: $36.24</p>
+    <p>Shipping: FREE </p>
+    <p>Tax: $2.54 </p>
+    <p><strong>Total:</strong> $38.78 </p>
+  </div>
+</div>
+<!------- End of KL Summary -->
+
+<!------Payment---->
+<div class="card border-success mb-3" style="max-width: 38rem;">
+  <div class="card-header bg-transparent border-success">Payment Information</div>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <p>Cardholder Name</p>
+      <input type="email" class="form-control" placeholder="Cardholder Name">
+    </div>
+    <div class="form-group col-md-6">
+      <p>Card Number</p>
+      <input class="form-control" placeholder="Card Number">
+    </div>
+  </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>Expiration Date</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group col-md-2">
+      <label>CVC Code</label>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+  <br>
+  
+</form>
+</div>
+<!-----end of payment information -->
+
 
 <!--FOOTER-->
 
