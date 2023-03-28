@@ -10,11 +10,15 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
     crossorigin="anonymous"
   />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
 <style>
      body {
         background-image: url(images/Green-Background.jpg)
       }
-=======
       .card-header  {
         font-size:x-large;
       }
@@ -38,18 +42,17 @@
       justify-content: center;
      }
 
->>>>>>> b87fffad022b3b3463590e8976f1a40166cb74a6
 </style>
     <title>Check-Out</title>
 </head>
 <body>
-    <!--NAVIGATION-->
-<!--NAVIGATION BAR-->
-<div class="container">
+<<<<<<< HEAD
+   <!--NAVIGATION BAR-->
+   <div class="container">
     <div class="row">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid" style="background-color: rgb(196, 209, 196);">
-          <a class="navbar-brand" id="LOGO" href="index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
+          <a class="navbar-brand animate__animated animate__flip"  href="index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -91,16 +94,74 @@
               <a class="nav-link" href="#">Sign in / Create an account</a>
             </li>
           </ul>
+=======
+    <!--NAVIGATION BAR-->
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid" style="background-color: rgb(196, 209, 196);">
+            <a class="navbar-brand animate__animated animate__flip"  href="index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">           
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Departments
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Beverage</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li></li>
+                  <li><a class="dropdown-item" href="#">Deli</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li></li>
+                  <li><a class="dropdown-item" href="#">Produces</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dry Goods</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign in / Create an account</a>
+              </li>
+            </ul>
+            </div>
+            <div class="topnav" style="padding-left: 1rem; padding-right: 1rem;">
+                <input type="text" placeholder="Search..">
+              </div>
+                <button class="btn btn-outline-light" type="submit">
+                  Search
+                </button>            
+              <div class="cart" style="padding-left: 1rem;"><a href="Shopping.Cart.html">View Cart</a>
+                <a href="Shopping.Cart.html"><img class="cartt" src="images/CART-download.png" href="Shopping.Cart.html" width="40"></a>
+            </div>
+>>>>>>> 50ab6714304d8aa4e422940290c97cccf70c751b
           </div>
           <div class="topnav" style="padding-left: 1rem; padding-right: 1rem;">
               <input type="text" placeholder="Search..">
             </div>
-          <button class="btn btn-outline-light" type="submit">
-            Search
-          </button>
-           
-            <div class="cart" style="padding-left: 1rem;">
-              View Cart<img class="cartt" src="images/CART-download.png" width="40">
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>            
+            <div class="cart" style="padding-left: 1rem;"><a href="Shopping.Cart.html">View Cart</a>
+              <a href="Shopping.Cart.html"><img class="cartt" src="images/CART-download.png" href="Shopping.Cart.html" width="40"></a>
           </div>
         </div>
       </nav>
@@ -108,189 +169,120 @@
 <!--CHECK OUT-->
 <div class="container2">
 <div class="row">
-  <div class="col-8"><div class="card border-success mb-3" style="max-width: auto;">
-    <div class="card-header bg-transparent border-success">Check Out</div>
-    <form class="form-row">
-    <div class="form-row col-md-3">
-      <label for="inputNamel4" class="form-label">First Name</label>
-        <input type="name" class="form-control" id="inputName4">
+  <div class="row">
+    <div class="col-8"><div class="card border-success mb-3" style="max-width: auto;">
+      <div class="card-header bg-transparent border-success">Check Out</div>
+      <form class="form-row">
+      <div class="form-row col-md-3">
+        <label for="inputNamel4" class="form-label">First Name</label>
+          <input type="name" class="form-control" id="inputName4">
+        </div>
+        <div class="form-row col-md-3">
+          <label for="inputLastname4" class="form-label">Last Name</label>
+          <input type="lastname" class="form-control" id="inputLastname4">
+        </div>
+      <div class="form-row col-md-6">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="form-row col-md-6">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
       </div>
       <div class="form-row col-md-3">
-        <label for="inputLastname4" class="form-label">Last Name</label>
-        <input type="lastname" class="form-control" id="inputLastname4">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
       </div>
-    <div class="form-row col-md-6">
-      <label for="inputAddress" class="form-label">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="form-row col-md-6">
-      <label for="inputAddress2" class="form-label">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="form-row col-md-3">
-      <label for="inputCity" class="form-label">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-<<<<<<< HEAD
-    <div class="form-row col-md-3">
-      <label for="inputState" class="form-label">State</label>
-      <select id="inputState" class="form-select">
-        <option selected><Choose...</option>
-        <option>AL</option>
-        <option>AK</option>
-        <option>AZ</option>
-        <option>AR</option>
-        <option>CA</option>
-        <option>CO</option>
-        <option>CT</option>
-        <option>DE</option>
-        <option>FL</option>
-        <option>GA</option>
-        <option>HI</option>
-        <option>ID</option>
-        <option>IN</option>
-        <option>IA</option>
-        <option>KS</option>
-        <option>KY</option>
-        <option>LA</option>
-        <option>ME</option>
-        <option>MD</option>
-        <option>MA</option>
-        <option>MI</option>
-        <option>MN</option>
-        <option>MS</option>
-        <option>MO</option>
-        <option>MT</option>
-        <option>NE</option>
-        <option>NV</option>
-        <option>NH</option>
-        <option>NJ</option>
-        <option>NM</option>
-        <option>NY</option>
-        <option>NC</option>
-        <option>ND</option>
-        <option>OH</option>
-        <option>OR</option>
-        <option>PA</option>
-        <option>RI</option>
-        <option>SC</option>
-        <option>SD</option>
-        <option>TN</option>
-        <option>TX</option>
-        <option>UT</option>
-        <option>VT</option>
-        <option>VA</option>
-        <option>WA</option>
-        <option>WV</option>
-        <option>WI</option>
-        <option>WY</option>
-      </select>
-=======
-  <div class="form-row col-md-3">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-row col-md-3">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="form-row col-md-3">
-    <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-  <div class="form-row col-md-3">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose..</option>
-      <option>AL</option>
-      <option>AK</option>
-      <option>AZ</option>
-      <option>AR</option>
-      <option>CA</option>
-      <option>CO</option>
-      <option>CT</option>
-      <option>DE</option>
-      <option>FL</option>
-      <option>GA</option>
-      <option>HI</option>
-      <option>ID</option>
-      <option>IN</option>
-      <option>IA</option>
-      <option>KS</option>
-      <option>KY</option>
-      <option>LA</option>
-      <option>ME</option>
-      <option>MD</option>
-      <option>MA</option>
-      <option>MI</option>
-      <option>MN</option>
-      <option>MS</option>
-      <option>MO</option>
-      <option>MT</option>
-      <option>NE</option>
-      <option>NV</option>
-      <option>NH</option>
-      <option>NJ</option>
-      <option>NM</option>
-      <option>NY</option>
-      <option>NC</option>
-      <option>ND</option>
-      <option>OH</option>
-      <option>OR</option>
-      <option>PA</option>
-      <option>RI</option>
-      <option>SC</option>
-      <option>SD</option>
-      <option>TN</option>
-      <option>TX</option>
-      <option>UT</option>
-      <option>VT</option>
-      <option>VA</option>
-      <option>WA</option>
-      <option>WV</option>
-      <option>WI</option>
-      <option>WY</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
-  </div>
-  <div class="col-12">
-    <div class="form-check">
->>>>>>> 4b76bdd3dc5da24aea32ef8158a77fc6358fd786
-    </div>
-    <div class="col-md-2">
-      <label for="inputZip" class="form-label">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
+      <div class="form-row col-md-3">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected><Choose...</option>
+          <option>AL</option>
+          <option>AK</option>
+          <option>AZ</option>
+          <option>AR</option>
+          <option>CA</option>
+          <option>CO</option>
+          <option>CT</option>
+          <option>DE</option>
+          <option>FL</option>
+          <option>GA</option>
+          <option>HI</option>
+          <option>ID</option>
+          <option>IN</option>
+          <option>IA</option>
+          <option>KS</option>
+          <option>KY</option>
+          <option>LA</option>
+          <option>ME</option>
+          <option>MD</option>
+          <option>MA</option>
+          <option>MI</option>
+          <option>MN</option>
+          <option>MS</option>
+          <option>MO</option>
+          <option>MT</option>
+          <option>NE</option>
+          <option>NV</option>
+          <option>NH</option>
+          <option>NJ</option>
+          <option>NM</option>
+          <option>NY</option>
+          <option>NC</option>
+          <option>ND</option>
+          <option>OH</option>
+          <option>OR</option>
+          <option>PA</option>
+          <option>RI</option>
+          <option>SC</option>
+          <option>SD</option>
+          <option>TN</option>
+          <option>TX</option>
+          <option>UT</option>
+          <option>VT</option>
+          <option>VA</option>
+          <option>WA</option>
+          <option>WV</option>
+          <option>WI</option>
+          <option>WY</option>
+        </select>
+    
     <div class="col-12">
       <div class="form-check">
       </div>
-    </div>
-    </form>
-    </div></div>
-  <div class="col-4"><div class="card border-success mb-3" style="max-width: 18rem;">
+      <div class="form-group col-md-6">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+        </div>
+      </div>
+      </form>
+      </div></div></div>
+  </div>
+
+  <div class="col-4"><div class="card border-success col-mb-6" width="38rem">
     <div class="card-header bg-transparent border-success">Order Summary</div>
     <div class="card-body text-success">
       <table class="table table-hover">
         <thead>
           <tr>
-            <th scope="col">Product</th>
+            <th scope="row">Product</th>
             <th scope="col">Price</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row"><img src="C:\Users\klee9\CTAC\DAY17\Agile-Group-Project\images\Cereal.jpg" width="50"></th>
+            <th scope="row"><img src="images/Cereal.jpg" width="50"></th>
             <td>$4.99</td>
           </tr>
           <tr>
-            <th scope="row"><img src="C:\Users\klee9\CTAC\DAY17\Agile-Group-Project\images\hershe.webp" width="50"></th>
+            <th scope="row"><img src="images/hershe.webp" width="50"></th>
             <td>$27.76</td>
           </tr>
           <tr>
-            <th scope="row"><img src="C:\Users\klee9\CTAC\DAY17\Agile-Group-Project\images\bread.jpeg" width="50"></th>
+            <th scope="row"><img src="images/bread.jpeg" width="50"></th>
             <td colspan="2">$3.49</td>
           </tr>
         </tbody>
@@ -325,7 +317,7 @@
       <label>Expiration Date</label>
       <input type="text" class="form-control">
     </div>
-    <div class="form-group col-md-2">
+    <div class="form-group col-md-6">
       <label>CVC Code</label>
       <input type="text" class="form-control">
     </div>

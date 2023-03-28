@@ -15,11 +15,7 @@
      rel="stylesheet"
      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+    
 
     <style>
       body {
@@ -49,7 +45,7 @@
       <div class="row">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid" style="background-color: rgb(196, 209, 196);">
-            <a class="navbar-brand" id="LOGO" href="index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
+            <a class="navbar-brand animate__animated animate__flip"  href="index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -95,12 +91,11 @@
             <div class="topnav" style="padding-left: 1rem; padding-right: 1rem;">
                 <input type="text" placeholder="Search..">
               </div>
-            <button class="btn btn-outline-light" type="submit">
-              Search
-            </button>
-             
-              <div class="cart" style="padding-left: 1rem;">
-                View Cart<img class="cartt" src="images/CART-download.png" width="40">
+                <button class="btn btn-outline-light" type="submit">
+                  Search
+                </button>            
+              <div class="cart" style="padding-left: 1rem;"><a href="Shopping.Cart.html">View Cart</a>
+                <a href="Shopping.Cart.html"><img class="cartt" src="images/CART-download.png" href="Shopping.Cart.html" width="40"></a>
             </div>
           </div>
         </nav>
@@ -139,15 +134,16 @@
               alt="Delivered Groceries"
             />
               </div>
-              <div class="col">
+              <div class="col d-flex align-items-center align-middle">
+                <div>
                 <p>
                     We Shop is a delivery service that brings your groceries straight
                     to your home. We offer fresh produce and a large selection of
                     essential food products.
                     We make it easy to order groceries so that you don't have to worry about tackling the weekly runs to the store.
-                    We are here for quick drop-offs in case an item is missed.
-                  </p>
+                    We are here for quick drop-offs in case an item is missed.</p>
                   <p>Take 25% off your first order on We Shop. Order today and enjoy having your groceries delivered to you without a hassle.</p>
+                </div>
               </div>
             </div>
             <br>
@@ -213,5 +209,10 @@
         <p class="text-center text-muted">© 2023 We Shop</p>
       </footer>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
