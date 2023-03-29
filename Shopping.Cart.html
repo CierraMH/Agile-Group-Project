@@ -36,12 +36,12 @@
     <title>Shopping-Cart</title>
 </head>
 <body>
-     <!--NAVIGATION BAR-->
-     <div class="container">
+    <!--NAVIGATION BAR-->
+    <div class="container">
       <div class="row">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid" style="background-color: rgb(196, 209, 196);">
-            <a class="navbar-brand" id="LOGO" href="index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
+            <a class="navbar-brand animate__animated animate__flip"  href="index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -58,7 +58,7 @@
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="3"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -87,12 +87,11 @@
             <div class="topnav" style="padding-left: 1rem; padding-right: 1rem;">
                 <input type="text" placeholder="Search..">
               </div>
-            <button class="btn btn-outline-light" type="submit">
-              Search
-            </button>
-             
-              <div class="cart" style="padding-left: 1rem;">
-                View Cart<img class="cartt" src="images/CART-download.png" width="40">
+                <button class="btn btn-outline-light" type="submit">
+                  Search
+                </button>            
+              <div class="cart" style="padding-left: 1rem;"><a href="Shopping.Cart.html">View Cart</a>
+                <a href="Shopping.Cart.html"><img class="cartt" src="images/CART-download.png" href="Shopping.Cart.html" width="40"></a>
             </div>
           </div>
         </nav>
@@ -201,7 +200,8 @@
             <!-- End third card -->
             </div>
             
-            <div class="col-lg-4">
+            <div class="col-lg-4"><div class="card border-success col-mb-6 d-flex justify-content-center">
+              <div class="card-center bg-transparent border-success">
               <h3>Order Summary</h3>
               <table class="table">
                   <tbody>
@@ -212,21 +212,27 @@
                     </tr>
                     <tr>
                       <th scope="row">Shipping</th>
-                      <td class="cartdata">$3.99</td>
+                      <td class="cartdata">FREE</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Tax</th>
+                      <td class="cartdata">$2.54</td>
                     </tr>
                     <tr>
                       <th scope="row">Total</th>
-                      <td class="cartdata">$40.23</td>
+                      <td class="cartdata">$38.78</td>
                     </tr>
                   </tbody>
                 </table>
       
                 <div class="text-center">
-                  <button class="btn btn-outline-light" type="submit" style="background-color: rgb(196, 209, 196);">checkout </button>
+                  <a href="Check-out.html"><button class="btn btn-outline-light" type="submit" style="background-color: rgb(196, 209, 196);">Checkout </button>
                
                 </div>
+              </div>
+            </div>
       
-            
+   </div>         
 
 
     
