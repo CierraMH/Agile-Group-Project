@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheese</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+    <!-- This line below needs to be copied on each page that has stars  -->
+    <script src="https://kit.fontawesome.com/158b7b5e39.js" crossorigin="anonymous"></script>
+
+
+    <style>
+      body {
+        background-image: url(../images/Green-Background.jpg)
+      }
+      .container {
+        background-color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .btn{
+        background-color:  rgb(177, 200, 177);
+        color: #fff;
+      }
+    </style> 
+  </head>
+
+
+  <body>
+    <!--NAVIGATION BAR-->
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid" style="background-color: rgb(196, 209, 196);">
+            <a class="navbar-brand animate__animated animate__flip"  href="../index.html" style="font-size:xx-large; font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">We Shop</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">           
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Departments
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Beverage</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li></li>
+                  <li><a class="dropdown-item" href="#">Deli</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li></li>
+                  <li><a class="dropdown-item" href="#">Produces</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Dry Goods</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign in / Create an account</a>
+              </li>
+            </ul>
+            </div>
+            <div class="topnav" style="padding-left: 1rem; padding-right: 1rem;">
+                <input type="text" placeholder="Search..">
+              </div>
+                <button class="btn btn-outline-light" type="submit">
+                  Search
+                </button>            
+              <div class="cart" style="padding-left: 1rem;"><a href="../Shopping.Cart.html">View Cart</a>
+                <a href="../Shopping.Cart.html"><img class="cartt" src="../images/CART-download.png" href="../Shopping.Cart.html" width="40"></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+<!---------------------------- Start content  ------------------------------->
+<div class="container-sm justify-content-center">
+    <div class="row">
+      <!-- Start left-hand column -->
+      <div class="col">
+        <img src="../images/cheese.webp" alt="cheese" width="100%">
+        </div>
+      <!-- End left-hand column  -->
+      <!-- Start right-hand column  -->
+        <div class="col">
+            <h2>Kraft Mexican Style Four Cheese Shredded</h2>
+            <!-- begin rating star bar  -->
+            <div class=“rating”>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+            <!-- end rating star bar  -->
+            <p>$5.68</p>
+    <P>10 Left in stock</P>
+            <select>
+                <option>Select Quantity</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5+</option>
+            </select>
+            <button class="btn btn-outline-light" type="submit">
+                Add to cart
+              </button>
+            <p> 16 oz bag of delicous and creamy Kraft Natural Mexican Style Four 
+                Cheese Blend Shreeded Cheese. Meal time can be hard, especially when 
+                it comes to making something everyone agrees on. Don't worry, with 
+                Kraft Natural Mexican Style Four Cheese will make something 
+                that everyone love! And make everyone loves you!
+            </p>
+        </div>
+    </div>
+    <!-- End right-hand column  -->
+</div>
+<!---------------------------------- End content  --------------------------------------->
+<!--FOOTER-->
+
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item">
+      <a href="#" class="nav-link px-2 text-muted">Home</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link px-2 text-muted">Features</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link px-2 text-muted">Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link px-2 text-muted">About</a>
+    </li>
+  </ul>
+  <p class="text-center text-muted">© 2023 We Shop</p>
+</footer>
+</div>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"
+></script>
+</body>
+</html>
