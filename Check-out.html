@@ -117,13 +117,15 @@
     <div class="col-8"><div class="card border-success mb-3" style="max-width: auto;">
       <div class="card-header bg-transparent border-success">Check Out</div>
       <form class="form-row">
+      <div class="form-row col-md-">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+       </div>
+       <br>
       <div class="form-row col-md-3">
-        <label for="inputNamel4" class="form-label">First Name</label>
+        <label for="inputNamel4" class="form-label">Full Name</label>
           <input type="name" class="form-control" id="inputName4">
-        </div>
-        <div class="form-row col-md-3">
-          <label for="inputLastname4" class="form-label">Last Name</label>
-          <input type="lastname" class="form-control" id="inputLastname4">
         </div>
       <div class="form-row col-md-6">
         <label for="inputAddress" class="form-label">Address</label>
@@ -201,6 +203,19 @@
       <div class="col-12">
         <div class="form-check">
         </div>
+      </div>
+      <!-- billing address and guest forms -->
+      <div class="form-check mb-2 mr-sm-2">
+        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+        <label class="form-check-label" for="inlineFormCheck">
+          Same as Billing Address
+        </label>
+      </div>
+      <div class="form-check mb-2 mr-sm-2">
+        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+        <label class="form-check-label" for="inlineFormCheck">
+          Guest Checkout
+        </label>
       </div>
       </form>
       </div></div></div>
